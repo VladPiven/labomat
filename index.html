@@ -239,7 +239,6 @@ footer{margin-top:44px;color:var(--muted);font-size:13px;border-top:1px solid va
     <div class="tablist" role="tablist" aria-label="Робота Лабомата">
       <button class="tab" role="tab" id="t-log" aria-controls="p-log" aria-selected="true">Процес</button>
       <button class="tab" role="tab" id="t-rep" aria-controls="p-rep" aria-selected="false" tabindex="-1">Звіт <span class="cnt" id="repCnt" hidden>new</span></button>
-      <button class="tab" role="tab" id="t-faq" aria-controls="p-faq" aria-selected="false" tabindex="-1">Про сайт</button>
       <span class="mk" data-go="el-tabs" title="4. Tabs" style="align-self:center">4</span>
     </div>
 
@@ -256,12 +255,6 @@ footer{margin-top:44px;color:var(--muted);font-size:13px;border-top:1px solid va
       <div class="btnrow" style="margin-top:14px">
         <button type="button" class="btn ghost" id="copyBtn" disabled>Скопіювати звіт</button>
       </div>
-    </div>
-
-    <div class="panel" role="tabpanel" id="p-faq" aria-labelledby="t-faq" hidden>
-      <p style="margin-top:0"><b>Воно реально робить лаби?</b><br>Ні 😅 Звіт генерується з шаблону, здавати його не варто. Сама ця сторінка і є моєю лабою.</p>
-      <p><b>Тоді навіщо?</b><br>Завдання було зробити сторінку з 10 UI-елементами і пояснити, для чого кожен. Захотілось, щоб вони не просто стояли, а щось робили, от і вийшов такий «генератор».</p>
-      <p style="margin-bottom:0">Опис усіх елементів — <a href="#legend">внизу сторінки</a>.</p>
     </div>
   </div>
 </div>
@@ -298,7 +291,7 @@ footer{margin-top:44px;color:var(--muted);font-size:13px;border-top:1px solid va
 </section>
 
 <footer>
-  Лабораторна робота з UI-елементів, 2026
+  2026
 </footer>
 </div>
 
@@ -551,7 +544,7 @@ footer{margin-top:44px;color:var(--muted);font-size:13px;border-top:1px solid va
     ["Radiobutton","радіокнопка","Вибір тільки одного варіанта з кількох. Якщо вибрати інший, попередній знімається. Тут ним вибирається оцінка.","Бажана оцінка","el-radio"],
     ["Checkbox","чекбокс","Можна відмітити кілька пунктів одночасно або жодного. Тут — що додати у звіт.","Додати до звіту","el-check"],
     ["Text input","текстове поле","Поле, куди користувач вводить текст. Тут — ПІБ, група і пошук по журналу. Без ПІБ кнопка не спрацює.","ПІБ, група, пошук","studentName"],
-    ["Tabs","вкладки","Кілька блоків в одному місці, видно тільки один. Переключаються кліком або стрілками.","Процес / Звіт / Про сайт","el-tabs"],
+    ["Tabs","вкладки","Кілька блоків в одному місці, видно тільки один. Переключаються кліком або стрілками.","Процес / Звіт","el-tabs"],
     ["Button","кнопка","Запускає якусь дію. «Виконати лабу» запускає генерацію, «Скинути» очищає форму.","Виконати лабу","runBtn"],
     ["Text label","текстова мітка","Звичайний текст, який підписує поле або показує інформацію. Наприклад, статус під кнопкою.","Підписи полів, статус","el-label"],
     ["Link","посилання","Переходить на іншу сторінку або на інше місце цієї сторінки.","Під кнопками","el-link"],
